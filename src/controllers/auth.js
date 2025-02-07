@@ -9,7 +9,7 @@ const Token = require('../models/token')
 const passwordEncrypt = require('../helpers/passwordEncrypt')
 const jwt = require('jsonwebtoken')
 
-
+//Bu sayfa, bir Authentication (Kimlik Doğrulama) Controller'ıdır ve kullanıcı girişi (login), token yenileme (refresh) ve çıkış (logout) işlemlerini yönetiriz.
 
 module.exports = {
 
